@@ -1,0 +1,377 @@
+@charset "utf-08";
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/feminino/terezinha\ \(7\).JPG);
+    background-size: fill;
+    background-attachment: fixed;
+}
+
+.div_header {
+    background-color: white;
+    height: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.div_title_name_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_name_page {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.div_nav {
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box_nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.menulist_header {
+    color: black;
+    text-decoration: none;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.div_container_out {
+    padding: 40px;
+    background-image: linear-gradient(to left , rgba(0, 0, 0, 0.979), rgba(240, 248, 255, 0.87));
+}
+
+.container_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container_carousel {
+    width: 50%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.carousel {
+    height: auto;
+    overflow: hidden;
+}
+
+.carouse-item {
+    width: 30%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.w-100 {
+    height: auto !important;
+    margin: auto;
+    /* transform: translateY(-10%); */
+}
+
+.div_content_main {
+    width: 600px;
+    padding: 15px;
+}
+
+.title_main {
+    color: white;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+
+.content_paragrafo {
+    color: rgb(255, 255, 255);
+}
+
+.div_section_out {
+    width: 100%;
+    overflow: hidden;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+
+.redes{
+    background-color: aliceblue;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.rede_title{
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+
+.rede_icon{
+    width: 70px;
+}
+
+.section1 {
+    background-color: rgba(240, 248, 255, 0.692);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    transform: translate(20%);
+}
+
+.section1:hover{
+    transform: translate(0%);
+    transition: 1s ease;
+}
+
+.section1_apresentacao {
+    width: 600px;
+}
+
+.title_section1{
+    color: black;
+}
+
+.section1_paragrafo{
+    color: black;
+}
+
+.div_img_section1 {
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.section1_foto {
+    width: 300px;
+}
+
+.section2 {
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.445), rgba(240, 248, 255, 0.575));
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.div_title_section2{
+    color: white;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+
+.div_card_fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.div_card {
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.div_card:hover{
+    transform: scale(130%);
+    transition: 300ms;
+}
+
+.card_foto {
+    width: 90%;
+    border-radius: 20px;
+}
+
+.article_photo{
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    padding: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_article{
+    color: white;
+}
+
+.section2_paragrafo{
+    width: 600px;
+    background-color: aliceblue;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-size: 1.3em;
+    padding: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.carousel_slides_photo{
+    width: 800px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .div_footer{
+    background-color: black;
+    padding: 40px;
+} */
+
+.container_footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.align_itens_footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+.title_nav_footer{
+    color: white;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+
+.div_nav_footer{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.nav_footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.div_payment{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    background-color: black;
+}
+
+.title_payment{
+    font-size: 1em;
+    color: white;
+}
+
+.div_img_payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img_payment {
+    width: 50px;
+}
+
+.pay_pag{
+    width: 90px;
+}
+
+.menulist_footer{
+    color: white;
+    text-decoration: none;
+}
+
+.footer_footer{
+    color: white;
+}
